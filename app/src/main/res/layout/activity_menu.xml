@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="ua.pp.scandroid.forms.FrmMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_line_height"
+            android:layout_weight="16.66666666666667"
+            android:clickable="true"
+            android:onClick="clickLineInventory"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:background="@color/line1"
+                android:padding="@dimen/menu_line_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_text_paddong_bottom"
+                    android:text="ИНВЕНТАРИЗАЦИЯ"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Намного быстрее...\nИ намного удобнее..."
+                    android:textColor="@color/text_small"
+                    android:textSize="@dimen/menu_text_small_size"
+                    android:textStyle="italic"
+                    />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@color/colorTransparent"
+                app:srcCompat="@drawable/menu_inventory2"
+                android:scaleType="centerCrop"
+                android:clickable="false"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_line_height"
+            android:layout_weight="16.66666666666667"
+            android:onClick="clickLineReceipt"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@color/colorTransparent"
+                app:srcCompat="@drawable/menu_receipt"
+                android:scaleType="centerCrop"
+                android:clickable="false"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:background="@color/line2"
+                android:padding="@dimen/menu_line_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_text_paddong_bottom"
+                    android:text="ПРИЕМ ТОВАРА"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Теперь очень просто...\nИ оперативно..."
+                    android:textColor="@color/text_small"
+                    android:textSize="@dimen/menu_text_small_size"
+                    android:textStyle="italic"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_line_height"
+            android:layout_weight="16.66666666666667"
+            android:onClick="clickLineSale"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:background="@color/line3"
+                android:padding="@dimen/menu_line_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_text_paddong_bottom"
+                    android:text="ПРОДАЖА ТОВАРА"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Информация о ценах и наличии товара всегда под рукой..."
+                    android:textColor="@color/text_small"
+                    android:textSize="@dimen/menu_text_small_size"
+                    android:textStyle="italic"
+                    />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@color/colorTransparent"
+                app:srcCompat="@drawable/menu_sale"
+                android:scaleType="centerCrop"
+                android:clickable="false"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_line_height"
+            android:layout_weight="16.66666666666667"
+            android:onClick="clickLineSpis"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@color/image"
+                app:srcCompat="@drawable/menu_spis"
+                android:scaleType="centerCrop"
+                android:clickable="false"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:background="@color/line4"
+                android:padding="@dimen/menu_line_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_text_paddong_bottom"
+                    android:text="СПИСАНИЕ ТОВАРА"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Брак или закончился срок годности - спишем товар..."
+                    android:textColor="@color/text_small"
+                    android:textSize="@dimen/menu_text_small_size"
+                    android:textStyle="italic"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_line_height"
+            android:layout_weight="16.66666666666667"
+            android:onClick="clickLineOrder"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:background="@color/line5"
+                android:padding="@dimen/menu_line_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_text_paddong_bottom"
+                    android:text="ЗАКАЗЫ ТОВАРА"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Когда срочно нужно пополнить запасы торговой точки..."
+                    android:textColor="@color/text_small"
+                    android:textSize="@dimen/menu_text_small_size"
+                    android:textStyle="italic"
+                    />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@drawable/menu_order3"
+                android:scaleType="centerCrop"
+                android:clickable="false"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_line_height"
+            android:layout_weight="16.66666666666667"
+            android:onClick="clickLineSetting"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="@drawable/menu_setting2"
+                android:scaleType="centerCrop"
+                android:clickable="false"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="70"
+                android:background="@color/line6"
+                android:padding="@dimen/menu_line_padding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/menu_text_paddong_bottom"
+                    android:text="НАСТРОЙКИ"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Здесь можно изменить конфигурацию приложения..."
+                    android:textColor="@color/text_small"
+                    android:textSize="@dimen/menu_text_small_size"
+                    android:textStyle="italic"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

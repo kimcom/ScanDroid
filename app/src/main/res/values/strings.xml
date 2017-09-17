@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScanDroid</string>
+
+    <string name="title_activity_login">ScanDroid: Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password2">Confirm password</string>
+
+    <string name="error_invalid_email">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">Cancel</string>
+
+    <string name="about_title">About</string>
+    <string name="about_text">About text</string>
+    <string name="action_register">Sign up</string>
+    <string name="action_register2">REGISTER</string>
+    <string name="action_back">BACK to Sign in</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="message_start"></string>
+    <string name="message_no_serial">No access to the device ID!\n\nContinuation of work is impossible!</string>
+    <string name="message_no_connect">No connection to the server!\n\nContinuation of work is impossible!</string>
+    <string name="message_no_config">Configuration file not found!\n\nContinuation of work is impossible!</string>
+    <string name="message_register_form_fill">
+        Registration in the system is free!\n
+        \n
+        After registration you will be able to use
+        all the functionality of the program within 14 days
+        on this device.\n
+        \n
+        After the end of this period -
+        You can subscribe to a further
+        Work in the system for this device.\n
+        \n
+        You can simultaneously use many devices
+        for one email address registered by you\n
+        \n
+        Fill out the form and click \n\"REGISTER\"!
+    </string>
+    <string name="error_invalid_password2">The entered passwords do not match!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_inventory_list">List of documents \"Inventory\"</string>
+
+    <string name="prompt_textDocID">Документ №</string>
+    <string name="prompt_textDocDT">Дата</string>
+    <string name="prompt_textDocNotes">Описание</string>
+    <string name="action_button_save_docInfo">Сохранить</string>
+
+    <string name="title_activity_quantity">Параметры товара</string>
+    <string name="title_activity_search">Поиск товара</string>
+
+</resources>

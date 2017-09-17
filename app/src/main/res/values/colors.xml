@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8bc34a</color>
+    <color name="colorPrimaryDark">#5a9216</color>
+    <color name="colorPrimaryDark2">#35540D</color>
+    <color name="colorPrimaryDark3">#4F7F14</color>
+    <color name="colorAccent">#5a9216</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="ogange">#ffa500</color>
+    <color name="olive">#bee554</color>
+    <color name="oliveDark">#556b2f</color>
+    <color name="oliveLite">#c8f526</color>
+    <color name="oliveLite2">#bef67a</color>
+
+    <color name="gray_overlay">#20000000</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="text_black">#000000</color>
+    <color name="text">#FFFFFF</color>
+    <color name="text_small">#333333</color>
+    <color name="image">#F2D7A2</color>
+    <color name="line1">#FC474C</color>
+    <color name="line2">#D3E039</color>
+    <color name="line3">#26C5C8</color>
+    <color name="line4">#53AC02</color>
+    <color name="line5">#9888E0</color>
+    <color name="line6">#C6C6C6</color>
+
+</resources>

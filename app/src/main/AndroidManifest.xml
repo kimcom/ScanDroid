@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ua.pp.scandroid">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CustomTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".forms.FrmLoginActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_login"
+            />
+        <activity
+            android:name=".forms.FrmAboutActivity"
+            android:label="@string/about_title"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"></activity>
+        <activity
+            android:name=".util.FrmDialogActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"></activity>
+        <activity
+            android:name=".forms.FrmMenuActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/CustomTheme.NoActionBar"></activity>
+        <activity
+            android:name=".forms.FrmListInventoryActivity"
+            android:theme="@style/CustomThemeActionBarRed"
+            android:label="@string/title_activity_inventory_list" />
+        <activity
+            android:name=".forms.FrmDocInventoryActivity"
+            android:theme="@style/CustomThemeActionBarRed"
+            />
+        <activity
+            android:name=".forms.FrmCameraActivity"
+            android:theme="@style/CustomTheme.NoActionBar"
+            />
+        <activity
+            android:name=".forms.FrmQuantityActivity"
+            android:label="@string/title_activity_quantity" />
+        <activity
+            android:name=".forms.FrmSearchActivity"
+            android:label="@string/title_activity_search" />
+    </application>
+
+</manifest>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScanDroid</string>
+
+    <string name="title_activity_login">ScanDroid: Вход в систему</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="prompt_password2">Повторите пароль</string>
+
+    <string name="action_sign_in">Выполнить вход</string>
+    <string name="action_sign_in_short">Вход</string>
+    <string name="error_invalid_email">Некорректное имя пользователя</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_invalid_password2">Введеные пароли не совпадают</string>
+    <string name="error_incorrect_password">Некорректный пароль</string>
+    <string name="error_field_required">Это обязательное поле</string>
+
+    <string name="ok">ОК</string>
+    <string name="cancel">Закрыть</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="about_title">О программе</string>
+    <string name="about_text">О программе</string>
+    <string name="action_register">РЕГИСТРАЦИЯ</string>
+    <string name="action_register2">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="action_back">НАЗАД</string>
+    <string name="message_start"></string>
+    <string name="message_no_serial">Нет доступа к идентификатору устройства!\n\nПродолжение работы невозможно!</string>
+    <string name="message_no_connect">Нет связи с сервером!\n\nПродолжение работы невозможно!</string>
+    <string name="message_register_form_fill">
+        Регистрация в системе бесплатная!\n
+        \n
+        После регистрации Вы сможете использовать
+        весь функционал программы в течении 14 дней
+        на этом устройстве.\n
+        \n
+        После завершения этого срока  -
+        Вы можете оформить подписку на дальнейшую
+        работу в системе для этого устройства.\n
+        \n
+        Вы можете одновременно использовать много устройств
+        для одного зарегистрированного Вами email адреса.\n
+        \n
+        Заполните форму и нажмите\n\"Зарегистрироваться\"!
+    </string>
+    <string name="title_activity_menu">Меню</string>
+    <string name="message_no_config">Не найден фал конфигурации!</string>
+    <string name="title_activity_inventory_list">Список документов \"Инвентаризация\"</string>
+
+    <string name="prompt_textDocID">Документ №</string>
+    <string name="prompt_textDocDT">Дата</string>
+    <string name="prompt_textDocNotes">Описание</string>
+    <string name="action_button_save_docInfo">Сохранить</string>
+
+    <string name="title_activity_quantity">Параметры товара</string>
+    <string name="title_activity_search">Поиск товара</string>
+
+</resources>
